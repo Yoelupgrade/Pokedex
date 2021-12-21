@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@300&family=Satisfy&display=swap");
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pokemons {
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../images/wallcardpoke.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1%;
+  width: 14em;
+  height: 21em;
+  text-align: center;
+  border-radius: 5%;
+  border: 8px solid #ffd900;
+}
+
+.pokemons:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: drop-shadow(0px 0px 10px white);
+          filter: drop-shadow(0px 0px 10px white);
+}
+
+.divImage {
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-image: url(../images/backimgpoke.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 12em;
+  height: 12em;
+  border-radius: 10%;
+  border: 1px solid white;
+}
+
+.imgPoke {
+  margin-top: 5%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 10em;
+  height: 10em;
+  -webkit-filter: drop-shadow(0px 0px 10px #00d696);
+          filter: drop-shadow(0px 0px 10px #00d696);
+}
+
+.imgPoke:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+h3 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 10em;
+  background-color: rgba(240, 240, 240, 0.59);
+  text-transform: capitalize;
+  border-radius: 8px;
+  font-family: 'Rubik', sans-serif;
+  -webkit-box-shadow: 0px 0px 10px #00d696;
+          box-shadow: 0px 0px 10px #00d696;
+}
+
+.divp {
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(240, 240, 240, 0.59);
+  margin: 5%;
+  width: 12em;
+  max-height: 10em;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 10px #00d696;
+          box-shadow: 0px 0px 10px #00d696;
+}
+
+p {
+  text-transform: capitalize;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  margin: 1%;
+  padding: 0;
+}
+/*# sourceMappingURL=Pokemons.css.map */
