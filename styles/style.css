@@ -6,9 +6,58 @@ body {
   background-attachment: fixed;
 }
 
+@media only screen and (min-width: 320px) {
+  .pokemons {
+    width: 8em;
+    height: 13em;
+    margin: 5%;
+  }
+  .divImage {
+    width: 80%;
+    height: 50%;
+  }
+  .imgPoke {
+    height: 6em;
+  }
+  p {
+    font-size: 70%;
+  }
+  h3 {
+    font-size: 70%;
+  }
+  .divp {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .pokemons {
+    width: 14em;
+    height: 21em;
+  }
+  .imgPoke {
+    height: 10em;
+  }
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .divp {
+    margin: 5%;
+  }
+  .divImage {
+    width: 80%;
+    height: 80%;
+  }
+  p {
+    font-size: 100%;
+  }
+  h3 {
+    font-size: 100%;
+  }
+}
+
 .container {
-  margin-left: 5%;
-  margin-right: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,8 +92,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 1%;
-  width: 14em;
-  height: 21em;
   text-align: center;
   border-radius: 5%;
   border: 8px solid #ffd900;
@@ -63,24 +110,25 @@ body {
   background-image: url(../images/backimgpoke.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 12em;
-  height: 12em;
   border-radius: 10%;
   border: 1px solid white;
 }
 
 .imgPoke {
-  margin-top: 5%;
   -o-object-fit: contain;
      object-fit: contain;
-  width: 10em;
-  height: 10em;
+  margin: 0;
+  padding: 0;
+  width: 85%;
   -webkit-filter: drop-shadow(0px 0px 10px #00d696);
           filter: drop-shadow(0px 0px 10px #00d696);
 }
@@ -93,11 +141,11 @@ body {
 h3 {
   -o-object-fit: contain;
      object-fit: contain;
-  width: 10em;
+  width: 80%;
   background-color: rgba(240, 240, 240, 0.59);
   text-transform: capitalize;
   border-radius: 8px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   -webkit-box-shadow: 0px 0px 10px #00d696;
           box-shadow: 0px 0px 10px #00d696;
 }
@@ -113,9 +161,8 @@ h3 {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: rgba(240, 240, 240, 0.59);
-  margin: 5%;
-  width: 12em;
-  max-height: 10em;
+  width: 85%;
+  max-height: 70%;
   border-radius: 8px;
   -webkit-box-shadow: 0px 0px 10px #00d696;
           box-shadow: 0px 0px 10px #00d696;
@@ -123,7 +170,7 @@ h3 {
 
 p {
   text-transform: capitalize;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: bold;
   margin: 1%;
   padding: 0;
@@ -150,7 +197,7 @@ section {
             filter: drop-shadow(0px 0px 10px #aa0000);
   }
   .ballserch {
-    width: 15%;
+    width: 10%;
   }
   .containerSearch {
     border-radius: 5%;
@@ -195,7 +242,7 @@ section {
 
 .searchValue {
   border-radius: 10px;
-  width: 40%;
+  width: 35%;
   -webkit-box-shadow: 0px 0px 10px 10px #00a1e0;
           box-shadow: 0px 0px 10px 10px #00a1e0;
   text-align: center;
