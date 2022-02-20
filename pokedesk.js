@@ -55,8 +55,10 @@ const print = (pokemon) => {
 // BUSCADOR
 button$$.addEventListener("click", () => {
   divSearch$$.innerHTML = "";
-    for (const pokemon of pokemonglobal) {
-      if ( input$$.value.toLowerCase() === pokemon.name) {
+    
+  for (const pokemon of pokemonglobal) {
+      
+    if ( input$$.value.toLowerCase() === pokemon.name) {
             const divs$$ = document.createElement("div");
             divs$$.setAttribute("class", "pokemons");
             divs$$.innerHTML = `<h3>${pokemon.name}</h3>
@@ -71,7 +73,8 @@ button$$.addEventListener("click", () => {
                                   </div>`;
             divSearch$$.appendChild(divs$$);
                                   } 
-            else if (input$$.value.toLowerCase() === pokemon.abilities[0].ability.name){
+            
+    else if (input$$.value.toLowerCase() === pokemon.abilities[0].ability.name){
               const divt$$ = document.createElement("div");
             divt$$.setAttribute("class", "pokemons");
             divt$$.innerHTML = `<h3>${pokemon.name}</h3>

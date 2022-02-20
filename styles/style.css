@@ -197,33 +197,40 @@ section {
             filter: drop-shadow(0px 0px 10px #aa0000);
   }
   .ballserch {
-    width: 10%;
+    width: 8%;
   }
   .containerSearch {
     border-radius: 5%;
+  }
+  .searchValue {
+    width: 60%;
   }
 }
 
 @media only screen and (min-width: 450px) {
   .title {
-    padding: 5%;
+    padding: 4%;
     -webkit-filter: drop-shadow(0px 0px 10px #aa0000);
             filter: drop-shadow(0px 0px 10px #aa0000);
   }
   .ballserch {
-    width: 6%;
+    width: 5%;
   }
   .containerSearch {
     border-radius: 15%;
   }
+  .searchValue {
+    width: 35%;
+  }
 }
 
 .gif {
-  background-image: url(../images/tenor.gif);
-  background-blend-mode: color;
-  background-color: rgba(255, 255, 255, 0.33);
+  background-image: url(../images/wallpaper_title.jpg);
+  -webkit-box-shadow: 0px 0px 5px 5px #00a1e0, 0px 0px 5px 5px #00a1e0 inset;
+          box-shadow: 0px 0px 5px 5px #00a1e0, 0px 0px 5px 5px #00a1e0 inset;
   background-size: cover;
-  width: 70%;
+  background-repeat: no-repeat;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,15 +249,14 @@ section {
 
 .searchValue {
   border-radius: 10px;
-  width: 35%;
   -webkit-box-shadow: 0px 0px 10px 10px #00a1e0;
           box-shadow: 0px 0px 10px 10px #00a1e0;
   text-align: center;
 }
 
 .ballserch {
-  -webkit-filter: drop-shadow(0px 0px 12px white);
-          filter: drop-shadow(0px 0px 12px white);
+  -webkit-filter: drop-shadow(0px 0px 12px black);
+          filter: drop-shadow(0px 0px 12px black);
 }
 
 .ballserch:hover {
@@ -259,7 +265,8 @@ section {
 }
 
 .containerSearch {
-  width: 100%;
+  margin: 0px 10%;
+  width: 90%;
   max-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
